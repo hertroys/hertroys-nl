@@ -33,22 +33,22 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;
+  --bs-primary: #c66300;
+  --bs-secondary: #804000;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 44, 62, 80;
+  --bs-primary-rgb: 198, 99, 0;
+  --bs-secondary-rgb: 128, 64, 0;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-dark-rgb: 128, 64, 0;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -11328,7 +11328,8 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity));  
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -11458,6 +11459,9 @@ html {
     font-size: 1.5rem;
   }
 }
+section.portfolio {
+  background-color: #ffdfa6;
+}
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11498,9 +11502,9 @@ html {
 }
 
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #2c3e50;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #804000;
   color: #fff;
 }
 
