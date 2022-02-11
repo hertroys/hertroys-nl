@@ -11511,3 +11511,9 @@ section.portfolio {
 .copyright {
   background-color: #1a252f;
 }
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
