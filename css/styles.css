@@ -41,14 +41,14 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 198, 99, 0;
-  --bs-secondary-rgb: 128, 64, 0;
+  --bs-primary-rgb: 0, 0, 0;
+  --bs-secondary-rgb: 4,72,66;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 128, 64, 0;
+  --bs-dark-rgb: 4,72,66;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -11460,7 +11460,7 @@ html {
   }
 }
 section.portfolio {
-  background-color: #ffdfa6;
+  background-color: #e0d1b2;
 }
 .portfolio .portfolio-item {
   cursor: pointer;
@@ -11504,7 +11504,12 @@ section.portfolio {
 .footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  background-color: #804000;
+  /*background-color: #804000;*/
+  /*--bs-secondary-rgb*/
+
+  --bs-text-opacity: 1;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+
   color: #fff;
 }
 
