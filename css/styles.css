@@ -236,11 +236,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #15967d;
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #1abc9c;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11460,15 +11460,22 @@ html {
   }
 }
 section.portfolio {
-  background-color: #e0d1b2;
+  background-color: /*#e0d1b2;*/ #fffde7;
 }
 .portfolio .portfolio-item {
-  cursor: pointer;
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.5rem;
   overflow: hidden;
+}
+.portfolio .portfolio-item img {
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.portfolio .portfolio-item .portfolio-header {
+  padding-bottom: 1em; 
+  font-size: 1.5em;
+  font-weight: 300;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11521,4 +11528,22 @@ section.portfolio {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+blockquote {
+  padding-top: 2em;
+  font-size: 1.25rem;
+  font-weight: 300; 
+}
+
+blockquote p:before, blockquote p:after {
+  font-weight: 900;
+}
+
+blockquote p:before {
+  content: '“';
+}
+
+blockquote p:after {
+  content: '”';
 }
