@@ -11524,12 +11524,6 @@ section.portfolio {
   background-color: #1a252f;
 }
 
-.truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 blockquote {
   padding-top: 2em;
   font-size: 1.25rem;
