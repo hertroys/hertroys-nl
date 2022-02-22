@@ -11529,6 +11529,7 @@ blockquote {
   padding-top: 2em;
   font-size: 1.25rem;
   font-weight: 300; 
+  margin-bottom: 0;
 }
 
 blockquote p:before, blockquote p:after {
