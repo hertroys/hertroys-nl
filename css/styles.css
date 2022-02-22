@@ -11461,6 +11461,7 @@ html {
 }
 section.portfolio {
   background-color: /*#e0d1b2;*/ #fffde7;
+  padding-bottom: 3rem;
 }
 .portfolio .portfolio-item {
   position: relative;
@@ -11509,8 +11510,8 @@ section.portfolio {
 }
 
 .footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   /*background-color: #804000;*/
   /*--bs-secondary-rgb*/
 
